@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>${1:Titre du site}</title>
+		<meta charset="UTF-8">
+		<link href="${2:..}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="${2:..}/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+		<link href="${2:..}/css/styles.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		${3:<!-- Code -->}
+
+		<!-- Bootstrap JS + JQuery -->
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="${2:..}/js/bootstrap.min.js"></script>
+	</body>
+</html>]]></content>
+	<tabTrigger>htmlB</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
