@@ -12,7 +12,7 @@
     "auto_id_class": false,
 
     // disable expanding abbreviation by Tab key
-    "disable_tab_abbreviations": false,
+    "disable_tab_abbreviations": true,
 
     // disable insertion of formatted linebreak when
     // Enter key is pressed between opening and closing HTML tags

@@ -1,2 +1,3 @@
 [
+	{"keys": ["ctrl+tab"], "command": "run_emmet_action", "args": {"action": "expand_abbreviation"}}
 ]
