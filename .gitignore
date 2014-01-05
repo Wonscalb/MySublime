@@ -1,8 +1,8 @@
 
-User/Package Control.last-run
-
-Default/Startup.cache
-
 User/Package Control.cache/ad7758d143e99a76034aad71ae2a1f3b
 
-User/Package Control.cache/ad7758d143e99a76034aad71ae2a1f3b.info
+*.last-run
+
+*.info
+
+*.cache
