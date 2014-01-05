@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[<!-- Navbar -->
+<div class="navbar navbar-${1:default/inverted} navbar-fixed-${2:top/bottom}">
+	<div class="container">
+		<!-- Bouton responsive activant le menu sur petits écrans -->
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<!-- Titre du site -->
+		<a class="navbar-brand text-muted" href="#">${3:Titre du site / Logo}</a>
+
+		<!-- Menu -->
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-${4:right/left}">
+				<!-- Liste des éléments du menu -->
+				<li class="active"><a href="#">${5:Onglet 1}</a></li>
+				<li><a href="#">${6:Onglet 2}</a></li>
+				
+				<!-- Dropdown -->
+				<li class="dropdown">
+					<a data-toggle="dropdown" data-target="#">${7:Onglet Drodown}<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">${8:Option 1}</a></li>
+						<li><a href="#">${9:Option 2}</a></li>
+						<li><a href="#">${10:Option 3}</a></li>
+						<li class="divider"></li>
+						<li><a href="#">${11:Option 4}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- End navbar -->]]></content>
+	<tabTrigger>bNavbar</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

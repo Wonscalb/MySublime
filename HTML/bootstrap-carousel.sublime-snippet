@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[<!-- Carousel -->
+<div id="myCarousel" class="carousel slide jumbotron">
+	<div class="container">
+
+		<!-- Indicateurs de page -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			${1:<!-- Liste de slides -->}
+		</ol>
+
+		<div class="carousel-inner">
+			
+			<div class="item active">
+				<h1>Diapositive 1</h1>
+				${2:<!-- Texte à mettre dans la diapositive -->}
+			</div>
+
+			<div class="item">
+				<h1>Diapositive 2</h1>
+				${3:<!-- Texte à mettre dans la diapositive -->}
+			</div>
+
+			${4:<!-- Diapos suivantes -->}
+		</div>		
+	</div>
+
+	<!-- Interface de contrôle du Carousel -->
+  	<a class="left carousel-control" href="#myCarousel" data-slide="prev">		<span class="icon-prev"></span>		</a>
+  	<a class="right carousel-control" href="#myCarousel" data-slide="next">		<span class="icon-next"></span>		</a>
+</div>
+<!-- End carousel -->]]></content>
+	<tabTrigger>bCarousel</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
