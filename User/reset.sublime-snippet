@@ -1,0 +1,191 @@
+<snippet>
+	<content><![CDATA[
+/* base font-size corresponds to 10px and is adapted to rem unit */
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.4em; /* equiv 14px */
+	line-height: 1.5; /* adapt to your design */
+}
+
+/* font-sizing for content */
+/* preserves vertical-rythm, thanks to http://soqr.fr/vertical-rhythm/ */
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+label,
+textarea,
+caption,
+details,
+figure {
+	margin: .75em 0 0;
+	line-height: 1.5;
+}
+h1, .h1-like {
+	margin: 0.6563em 0 0 0;
+	font-size: 2.2857em; /* equiv 32px */
+	line-height: 1.3126;
+}
+h2, .h2-like {
+	margin: 0.75em 0 0 0;
+	font-size: 2em; /* equiv 28px */
+	line-height: 1.5;
+}
+h3, .h3-like {
+	margin: 0.875em 0 0 0;
+	font-size: 1.7143em; /* equiv 24px */
+	line-height: 1.75;
+}
+h4, .h4-like {
+	margin: 1.05em 0 0 0;
+	font-size: 1.4286em; /* equiv 20px */
+	line-height: 1.05;
+}
+h5, .h5-like {
+	margin: 1.1667em 0 0 0;
+	font-size: 1.2857em; /* equiv 18px */
+	line-height: 1.1667;
+}
+h6, .h6-like {
+	margin: 1.3125em 0 0 0;
+	font-size: 1.1429em; /* equiv 16px */
+	line-height: 1.3125;
+}
+
+/* alternate font-sizing */
+.smaller {
+	font-size: .7143em; /* equiv 10px */
+}
+.small {
+	font-size: .8571em; /* equiv 12px */
+}
+.big {
+	font-size: 1.1429em; /* equiv 16px */
+}
+.bigger {
+	font-size: 1.2857em; /* equiv 18px */
+}
+.biggest {
+	font-size: 1.4286em; /* equiv 20px */
+}
+
+/* soft reset */
+html,
+body,
+textarea,
+figure,
+label {
+	margin: 0;
+	padding: 0;
+}
+ul,
+ol {
+	padding-left: 2em;
+}
+ul.unstyled {
+	list-style: none;
+}
+code, 
+pre,
+samp,
+kbd {
+	white-space: pre-wrap;
+	font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
+	line-height: 1em;
+}
+code, kbd, mark {
+	border-radius: 2px;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+i,
+b {
+	font-style: normal;
+	font-weight: normal;
+}
+kbd {
+	padding: 0 2px;
+	border: 1px solid #999;
+}
+code {
+	padding: 2px 4px;
+	background: rgba(0,0,0,.04);
+	color: #b11; 
+}
+mark {
+	padding:2px 4px;
+	background: #ff0;
+}
+sup,
+sub {
+	vertical-align: 0;
+	position: relative;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+
+table { margin-bottom: 1.5em; }
+
+/* avoid top margins on first content element */
+p:first-child,
+ul:first-child,
+ol:first-child,
+dl:first-child,
+blockquote:first-child,
+pre:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+/* avoid margins on nested elements */
+li p,
+li ul,
+li ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* max values */
+img, table, td, blockquote, code, pre, textarea, input, video {
+	max-width: 100%;
+}
+/* pictures */
+img {
+	height: auto;
+	vertical-align: middle;
+}
+/* Gmap3 bug fix on images */
+.gm-style img,
+.gmnoscreen img,
+.gmnoprint img {max-width: none !important;}
+
+a img { border: 0; }
+
+/* scripts */
+body > script {display: none !important;}
+]]></content>
+	<tabTrigger>reset</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

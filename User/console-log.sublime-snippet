@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[console.log("${1:Var to log} => ", ${1:Var to log});]]></content>
+	<tabTrigger>clog</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

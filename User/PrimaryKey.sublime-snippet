@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[PRIMARY KEY $0]]></content>
+
+	<tabTrigger>pkey, PKEY, PRIMARY, primary </tabTrigger>
+	<scope>source.sql</scope>
+</snippet>
